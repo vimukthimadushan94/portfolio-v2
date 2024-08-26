@@ -1,95 +1,157 @@
+"use client";
 import Image from "next/image";
-import styles from "./page.module.css";
+import Script from "next/script";
+import { useEffect } from "react";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+    <>
+      <header
+        id="header"
+        className="header d-flex align-items-center sticky-top"
+      >
+        <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+          <a href="index.html" className="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="" />
+            <h1 className="sitename">DevFolio</h1>
           </a>
+
+          <nav id="navmenu" className="navmenu">
+            <ul>
+              <li>
+                <a href="#hero" className="active">
+                  Home
+                  <br />
+                </a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li className="dropdown">
+                <a href="#">
+                  <span>Dropdown</span>{" "}
+                  <i className="bi bi-chevron-down toggle-dropdown"></i>
+                </a>
+                <ul>
+                  <li>
+                    <a href="#">Dropdown 1</a>
+                  </li>
+                  <li className="dropdown">
+                    <a href="#">
+                      <span>Deep Dropdown</span>{" "}
+                      <i className="bi bi-chevron-down toggle-dropdown"></i>
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="#">Deep Dropdown 1</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Dropdown 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Dropdown 3</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Dropdown 4</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Dropdown 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Dropdown 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Dropdown 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Dropdown 4</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
         </div>
-      </div>
+      </header>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <main className="main">
+        <section id="hero" className="hero section">
+          {/* <img
+            src="./../../public/assets/img/hero-img.jpg"
+            alt=""
+            data-aos="fade-in"
+          /> */}
+          <Image
+            src="/assets/img/hero-img.jpg"
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+          <div
+            className="container d-flex flex-column align-items-center justify-content-center text-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <h2>I am Morgan Freeman</h2>
+            {/* <p>
+              <span
+                className="typed"
+                data-typed-items="Designer, Developer, Freelancer, Photographer"
+              ></span>
+            </p> */}
+          </div>
+        </section>
+      </main>
+      <footer id="footer" className="footer">
+        <div className="container">
+          <div className="copyright text-center ">
+            <p>
+              © <span>Copyright</span>{" "}
+              <strong className="px-1 sitename">DevFolio</strong>{" "}
+              <span>All Rights Reserved</span>
+            </p>
+          </div>
+          <div className="social-links d-flex justify-content-center">
+            <a href="">
+              <i className="bi bi-twitter-x"></i>
+            </a>
+            <a href="">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="">
+              <i className="bi bi-instagram"></i>
+            </a>
+            <a href="">
+              <i className="bi bi-linkedin"></i>
+            </a>
+          </div>
+          <div className="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </footer>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <a
+        href="#"
+        id="scroll-top"
+        className="scroll-top d-flex align-items-center justify-content-center"
+      >
+        <i className="bi bi-arrow-up-short"></i>
+      </a>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      {/* <div id="preloader"></div> */}
+    </>
   );
 }
