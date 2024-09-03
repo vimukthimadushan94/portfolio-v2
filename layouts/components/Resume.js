@@ -5,8 +5,11 @@ const { blog_folder } = config.settings;
 
 const Resume = ({ resume }) => {
   return (
-    <section id="resume" className="resume section">
-      <div className="section-title container" data-aos="fade-up">
+    <section id="resume" className="resume container">
+      <div
+        className="section-title container place-content-center"
+        data-aos="fade-up"
+      >
         <h2>Resume</h2>
         <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
@@ -17,8 +20,8 @@ const Resume = ({ resume }) => {
       </div>
 
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div className="grid grid-cols-2">
+          <div data-aos="fade-up" data-aos-delay="100">
             <h3 className="resume-title">Sumary</h3>
 
             <div className="resume-item pb-0">
