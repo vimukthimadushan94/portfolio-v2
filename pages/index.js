@@ -4,6 +4,7 @@ import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
 import Pagination from "@layouts/components/Pagination";
 import Post from "@layouts/components/Post";
+import Resume from "@layouts/components/Resume";
 import Social from "@layouts/components/Social";
 import { getSinglePage } from "@lib/contentParser";
 import { sortByDate } from "@lib/utils/sortFunctions";
@@ -42,6 +43,8 @@ const Home = ({ posts }) => {
           </div>
         </div>
       </div>
+
+      <Resume />
 
       {/* posts */}
       <div className="pt-4">
