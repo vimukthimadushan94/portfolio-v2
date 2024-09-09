@@ -3,6 +3,7 @@ import social from "@config/social.json";
 import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
 import Pagination from "@layouts/components/Pagination";
+import Portfolio from "@layouts/components/Portfolio";
 import Post from "@layouts/components/Post";
 import Resume from "@layouts/components/Resume";
 import Social from "@layouts/components/Social";
@@ -45,6 +46,7 @@ const Home = ({ posts }) => {
       </div>
 
       <Resume />
+      <Portfolio />
 
       {/* posts */}
       <div className="pt-4">
