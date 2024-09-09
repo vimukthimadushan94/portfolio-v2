@@ -6,11 +6,8 @@ const { blog_folder } = config.settings;
 const Resume = ({ resume }) => {
   return (
     <section id="resume" className="resume container">
-      <div
-        className="section-title container place-content-center"
-        data-aos="fade-up"
-      >
-        <h2>Resume</h2>
+      <div className="section-title container text-center">
+        <h2 className="underline">Resume</h2>
         <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
@@ -20,12 +17,12 @@ const Resume = ({ resume }) => {
       </div>
 
       <div className="container">
-        <div className="grid grid-cols-2">
-          <div data-aos="fade-up" data-aos-delay="100">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="grid-cols-1">
             <h3 className="resume-title">Sumary</h3>
 
             <div className="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
+              <h4 className="text-gray-200">Brandon Johnson</h4>
               <p>
                 <em>
                   Innovative and deadline-driven Graphic Designer with 3+ years
@@ -43,7 +40,9 @@ const Resume = ({ resume }) => {
 
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h4 className="text-gray-200">
+                Master of Fine Arts &amp; Graphic Design
+              </h4>
               <h5>2015 - 2016</h5>
               <p>
                 <em>Rochester Institute of Technology, Rochester, NY</em>
@@ -56,7 +55,9 @@ const Resume = ({ resume }) => {
             </div>
 
             <div className="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h4 className="text-gray-200">
+                Bachelor of Fine Arts &amp; Graphic Design
+              </h4>
               <h5>2010 - 2014</h5>
               <p>
                 <em>Rochester Institute of Technology, Rochester, NY</em>
@@ -73,7 +74,9 @@ const Resume = ({ resume }) => {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4>Senior graphic design specialist</h4>
+              <h4 className="text-gray-200">
+                Senior graphic design specialist
+              </h4>
               <h5>2019 - Present</h5>
               <p>
                 <em>Experion, New York, NY </em>
@@ -99,7 +102,7 @@ const Resume = ({ resume }) => {
             </div>
 
             <div className="resume-item">
-              <h4>Graphic design specialist</h4>
+              <h4 className="text-gray-200">Graphic design specialist</h4>
               <h5>2017 - 2018</h5>
               <p>
                 <em>Stepping Stone Advertising, New York, NY</em>
