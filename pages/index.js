@@ -49,29 +49,6 @@ const Home = ({ posts }) => {
       <Portfolio />
 
       {/* posts */}
-      <div className="pt-4">
-        <div className="container">
-          <div className="row">
-            <div className="mx-auto lg:col-10">
-              <div className="row">
-                {sortPostByDate.slice(0, pagination).map((post, i) => (
-                  <Post
-                    className="col-12 mb-6 sm:col-6"
-                    key={"key-" + i}
-                    post={post}
-                  />
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="mt-12">
-            <Pagination
-              totalPages={Math.ceil(posts.length / pagination)}
-              currentPage={1}
-            />
-          </div>
-        </div>
-      </div>
     </Base>
   );
 };

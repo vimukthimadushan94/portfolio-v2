@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Portfolio = ({ resume }) => {
   return (
-    <section id="portfolio" className="portfolio section">
+    <section id="portfolio" className="portfolio section px-8">
       <div className="section-title container" data-aos="fade-up">
         <h2>Portfolio</h2>
         <p>
@@ -33,16 +33,15 @@ const Portfolio = ({ resume }) => {
           </ul>
 
           <div
-            className="gy-4 isotope-container row"
+            className="gy-4 isotope-container row grid grid-cols-1 gap-4 md:grid-cols-3"
             data-aos="fade-up"
             data-aos-delay="200"
           >
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <Image
-                src="/public/images/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                width={500}
+                src="/images/webworks/mymaster.jpg"
+                width={420}
                 height={500}
-                className="img-fluid"
                 alt="Picture of the author"
               />
               <div className="portfolio-info">
@@ -67,8 +66,10 @@ const Portfolio = ({ resume }) => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-2.jpg"
+              <Image
+                src="/images/webworks/pentium-pastal.jpg"
+                width={420}
+                height={500}
                 className="img-fluid"
                 alt=""
               />
@@ -76,7 +77,7 @@ const Portfolio = ({ resume }) => {
                 <h4>Product 1</h4>
                 <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="/img/masonry-portfolio/masonry-portfolio-2.jpg"
+                  href="/img/webworks/mymaster.jpg"
                   title="Product 1"
                   data-gallery="portfolio-gallery-product"
                   className="glightbox preview-link"
@@ -94,8 +95,10 @@ const Portfolio = ({ resume }) => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-3.jpg"
+              <Image
+                src="/images/webworks/tuktuk.jpg"
+                width={420}
+                height={500}
                 className="img-fluid"
                 alt=""
               />
@@ -121,8 +124,10 @@ const Portfolio = ({ resume }) => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-4.jpg"
+              <Image
+                src="/images/webworks/heslaa.jpg"
+                width={420}
+                height={500}
                 className="img-fluid"
                 alt=""
               />
@@ -148,8 +153,10 @@ const Portfolio = ({ resume }) => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-5.jpg"
+              <Image
+                src="/images/webworks/baranas.jpg"
+                width={420}
+                height={500}
                 className="img-fluid"
                 alt=""
               />
@@ -175,8 +182,10 @@ const Portfolio = ({ resume }) => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-6.jpg"
+              <Image
+                src="/images/webworks/enrich-website.jpg"
+                width={420}
+                height={500}
                 className="img-fluid"
                 alt=""
               />
@@ -185,87 +194,6 @@ const Portfolio = ({ resume }) => {
                 <p>Lorem ipsum, dolor sit</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in"></i>
-                </a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                className="img-fluid"
-                alt=""
-              />
-              <div className="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                  title="App 3"
-                  data-gallery="portfolio-gallery-app"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in"></i>
-                </a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                className="img-fluid"
-                alt=""
-              />
-              <div className="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                  title="Product 3"
-                  data-gallery="portfolio-gallery-product"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in"></i>
-                </a>
-                <a
-                  href="portfolio-details.html"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img
-                src="/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                className="img-fluid"
-                alt=""
-              />
-              <div className="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a
-                  href="/img/masonry-portfolio/masonry-portfolio-9.jpg"
                   title="Branding 2"
                   data-gallery="portfolio-gallery-branding"
                   className="glightbox preview-link"

@@ -5,9 +5,9 @@ const { blog_folder } = config.settings;
 
 const Resume = ({ resume }) => {
   return (
-    <section id="resume" className="resume container">
+    <section id="resume" className="resume container px-8">
       <div className="section-title container text-center">
-        <h2 className="underline">Resume</h2>
+        <h2>Resume</h2>
         <p>
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
