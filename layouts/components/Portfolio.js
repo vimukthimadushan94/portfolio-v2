@@ -19,19 +19,6 @@ const Portfolio = ({ resume }) => {
           data-layout="masonry"
           data-sort="original-order"
         >
-          <ul
-            className="portfolio-filters isotope-filters"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <li data-filter="*" className="filter-active">
-              All
-            </li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
-          </ul>
-
           <div
             className="gy-4 isotope-container row grid grid-cols-1 gap-4 md:grid-cols-3"
             data-aos="fade-up"
