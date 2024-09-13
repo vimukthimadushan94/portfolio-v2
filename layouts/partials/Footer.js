@@ -8,11 +8,7 @@ const Footer = () => {
   return (
     <footer id="footer" className="footer position-relative light-background">
       <div className="container">
-        <h3 className="sitename">Brandon Johnson</h3>
-        <p>
-          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-          eligendi fuga maxime saepe commodi placeat.
-        </p>
+        <h3 className="sitename">Vimukthi Madushan</h3>
         <div className="social-links flex justify-center">
           <Social source={social} className="profile-social-icons mt-8" />
         </div>
@@ -23,9 +19,6 @@ const Footer = () => {
             <span>
               All Rights Reserved {markdownify(copyright, "p", "text-text")}
             </span>
-          </div>
-          <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>
