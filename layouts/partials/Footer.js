@@ -14,8 +14,6 @@ const Footer = () => {
         </div>
         <div className="container">
           <div className="copyright">
-            <span>Copyright</span>
-            <strong className="sitename px-1">Alex Smith</strong>
             <span>
               All Rights Reserved {markdownify(copyright, "p", "text-text")}
             </span>
