@@ -33,17 +33,20 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="/img/masonry-portfolio/masonry-portfolio-1.jpg"
+                  href="https://mymaster.lk/"
+                  target="__blank"
                   title="App 1"
                   data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Self Learning Material Platform</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
-                  href="portfolio-details.html"
+                  href="https://mymaster.lk/"
+                  target="__blank"
                   title="More Details"
                   className="details-link"
                 >
@@ -62,13 +65,15 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="/img/webworks/mymaster.jpg"
-                  title="Product 1"
-                  data-gallery="portfolio-gallery-product"
+                  href="https://pentium2000.lk/"
+                  target="__blank"
+                  title="App 1"
+                  data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Pentium 2000 Stationery Company</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
@@ -91,13 +96,15 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                  title="Branding 1"
-                  data-gallery="portfolio-gallery-branding"
+                  href="http://tuktukceylonride.com/"
+                  target="__blank"
+                  title="App 1"
+                  data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Tuk Tuk CeylonRide</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
@@ -120,13 +127,15 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                  title="App 2"
+                  href="https://heslaatours.com/"
+                  target="__blank"
+                  title="App 1"
                   data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Heslaa Tours</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
@@ -149,13 +158,15 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                  title="Product 2"
-                  data-gallery="portfolio-gallery-product"
+                  href="https://baranassrilanka.com/"
+                  target="__blank"
+                  title="App 1"
+                  data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Baranas Sri Lanka</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
@@ -178,13 +189,15 @@ const Portfolio = ({ resume }) => {
               />
               <div className="portfolio-info">
                 <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
                 <a
-                  href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
+                  href="https://www.enrichtea.com/"
+                  target="__blank"
+                  title="App 1"
+                  data-gallery="portfolio-gallery-app"
                   className="glightbox preview-link"
                 >
+                  <p>Enrich tea and food exports</p>
+
                   <i className="bi bi-zoom-in"></i>
                 </a>
                 <a
