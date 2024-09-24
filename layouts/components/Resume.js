@@ -22,107 +22,97 @@ const Resume = ({ resume }) => {
             <h3 className="resume-title">Sumary</h3>
 
             <div className="resume-item pb-0">
-              <h4 className="text-gray-200">Brandon Johnson</h4>
+              <h4 className="text-gray-200">Vimukthi Madushan</h4>
               <p>
                 <em>
-                  Innovative and deadline-driven Graphic Designer with 3+ years
-                  of experience designing and developing user-centered
-                  digital/print marketing material from initial concept to
-                  final, polished deliverable.
+                  I am a software engineer having a full-time work visa in
+                  Finland. With over four years of practical experience in
+                  full-stack development, I am skilled in planning, developing,
+                  and implementing cloud software solutions. As a team player, I
+                  contribute to cross-functional success. Committed to
+                  continuous learning, I have a strong foundation in software
+                  engineering concepts and enjoy exploring and applying
+                  cutting-edge technological advancements.
                 </em>
               </p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Oulu, Finland</li>
+                <li>(+358)415765303</li>
+                <li>madushan.gangoda94@gmail.com</li>
               </ul>
             </div>
 
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4 className="text-gray-200">
-                Master of Fine Arts &amp; Graphic Design
-              </h4>
-              <h5>2015 - 2016</h5>
-              <p>
-                <em>Rochester Institute of Technology, Rochester, NY</em>
-              </p>
-              <p>
-                Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
-                iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
-                nerada porti sand markend
-              </p>
+              <h4 className="text-gray-200">BACHELOR OF SCIENCE</h4>
+              <h6>University Of Ruhuna, Sri Lanka (2015 - 2018)</h6>
+              <p>Field of study : Computer Science, Mathematics, Physics</p>
             </div>
 
             <div className="resume-item">
               <h4 className="text-gray-200">
-                Bachelor of Fine Arts &amp; Graphic Design
+                Finnish Integration Cource in OSAO - Continkangas
               </h4>
-              <h5>2010 - 2014</h5>
-              <p>
-                <em>Rochester Institute of Technology, Rochester, NY</em>
-              </p>
-              <p>
-                Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                reiciendis et quis Eius vel ratione eius unde vitae rerum
-                voluptates asperiores voluptatem Earum molestiae consequatur
-                neque etlon sader mart dila
-              </p>
+              <h5>2024 - Present</h5>
+              <p>Studing finnish language and culture</p>
             </div>
           </div>
 
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
-              <h4 className="text-gray-200">
-                Senior graphic design specialist
-              </h4>
-              <h5>2019 - Present</h5>
+              <h4 className="text-gray-200">SOFTWARE ENGINEER</h4>
+              <h5>Jul. 2021 - Aug 2023</h5>
               <p>
-                <em>Experion, New York, NY </em>
+                <em>Elegant Media PVT LTD - Colombo, Sri Lanka</em>
               </p>
               <ul>
                 <li>
-                  Lead in the design, development, and implementation of the
-                  graphic, layout, and production communication materials
+                  Elegant Media is a leading Web and Mobile application
+                  development company in Melbourne, Australia. My responsibility
+                  was to develop scalable and reliable backend and web
+                  applications with the relevant team. There i am responsible
+                  for,
+                </li>
+                <li>Cording, proper technology selection and usage.</li>
+                <li>
+                  Creating standard operating procedures for repetitive work and
+                  distributing them for team members.
                 </li>
                 <li>
-                  Delegate tasks to the 7 members of the design team and provide
-                  counsel on all aspects of the project.
-                </li>
-                <li>
-                  Supervise the assessment of all graphic materials in order to
-                  ensure quality and accuracy of the design
-                </li>
-                <li>
-                  Oversee the efficient use of production project budgets
-                  ranging from $2,000 - $25,000
+                  Maintaining libraries, conducting training sessions, R&D, and
+                  conducting feasibility assessments
                 </li>
               </ul>
             </div>
 
             <div className="resume-item">
-              <h4 className="text-gray-200">Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
+              <h4 className="text-gray-200">SOFTWARE ENGINEER</h4>
+              <h5>Feb 2021 - Jul 2021</h5>
               <p>
-                <em>Stepping Stone Advertising, New York, NY</em>
+                <em>Incubate Labs - Colombo, Sri Lanka</em>
               </p>
               <ul>
                 <li>
-                  Developed numerous marketing programs (logos,
-                  brochures,infographics, presentations, and advertisements).
+                  Collaborate with a cross-functional team to develop and launch
+                  the CloudOfGoods website.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-item">
+              <h4 className="text-gray-200">SOFTWARE ENGINEER</h4>
+              <h5>Nov 2018 - Fed 2021</h5>
+              <p>
+                <em>Weblook International - Colombo, Sri Lanka</em>
+              </p>
+              <ul>
+                <li>
+                  Developing a hotel booking engine as a product of Weblook with
+                  the Beds24 channel manager.
                 </li>
                 <li>
-                  Managed up to 5 projects or tasks at a given time while under
-                  pressure
-                </li>
-                <li>
-                  Recommended and consulted with clients on the most appropriate
-                  graphic design
-                </li>
-                <li>
-                  Created 4+ design presentations and proposals a month for
-                  clients and account managers
+                  Developing a food ordering system and mobile API for a
+                  Canadian client with the Express framework.
                 </li>
               </ul>
             </div>
