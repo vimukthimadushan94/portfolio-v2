@@ -25,34 +25,23 @@ const Portfolio = ({ resume }) => {
             data-aos-delay="200"
           >
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <Image
-                src="/images/webworks/mymaster.jpg"
-                width={420}
-                height={500}
-                alt="Picture of the author"
-              />
-              <div className="portfolio-info">
-                <h4>App 1</h4>
-                <a
-                  href="https://mymaster.lk/"
-                  target="__blank"
-                  title="App 1"
-                  data-gallery="portfolio-gallery-app"
-                  className="glightbox preview-link"
-                >
+              <a
+                href="https://mymaster.lk/"
+                target="__blank"
+                title="App 1"
+                data-gallery="portfolio-gallery-app"
+                className="glightbox preview-link"
+              >
+                <Image
+                  src="/images/webworks/mymaster.jpg"
+                  width={420}
+                  height={500}
+                  alt="Picture of the author"
+                />
+                <div className="portfolio-info">
                   <p>Self Learning Material Platform</p>
-
-                  <i className="bi bi-zoom-in"></i>
-                </a>
-                <a
-                  href="https://mymaster.lk/"
-                  target="__blank"
-                  title="More Details"
-                  className="details-link"
-                >
-                  <i className="bi bi-link-45deg"></i>
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
